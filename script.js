@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       formStatus.className = 'form-status-message success';
 
       // Open mailto fallback to provide real functionality
-      const mailtoLink = `mailto:kuchibhotla.akhil2006@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AReply to: ${encodeURIComponent(email)}`;
+      const mailtoLink = `mailto:akhil.kuchibhotla2006@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AReply to: ${encodeURIComponent(email)}`;
       window.location.href = mailtoLink;
 
       // Clear the inputs
