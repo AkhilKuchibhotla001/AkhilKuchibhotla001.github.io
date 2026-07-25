@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Akhil Kuchibhotla - Artificial Intelligence Undergraduate, Full-Stack Developer, and Machine Learning Researcher. Professional Portfolio.">
+  <title>Akhil Kuchibhotla | Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Background Light Gradients -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">&lt;</span>Akhil<span class="logo-accent">.K /&gt;</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Credentials</a></li>
+          <li><a href="#contact" class="btn btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="pulse-dot"></span> Open for Internships & Core Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Akhil Kuchibhotla</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            I am a <span id="typed-text" class="typed-cursor">Artificial Intelligence Undergrad</span>
+          </h2>
+          <p class="hero-desc">
+            B.Tech undergraduate in Computer Science & Engineering (AI) at Amrita Vishwa Vidyapeetham. Specializing in Deep Learning, Full-Stack engineering, and high-performance distributed big data frameworks.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="social-links hero-socials">
+            <a href="https://github.com/AkhilKuchibhotla001" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/akhilkuchibhotla" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:kuchibhotla.akhil2006@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://leetcode.com/u/Akhil_2006_Leetcode/" target="_blank" aria-label="LeetCode"><i class="code-icon">LC</i></a>
+          </div>
+        </div>
+        <div class="hero-avatar-area">
+          <div class="avatar-frame">
+            <div class="avatar-glass">
+              <svg viewBox="0 0 100 100" class="avatar-svg">
+                <defs>
+                  <linearGradient id="avatar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#bb86fc" />
+                    <stop offset="50%" stop-color="#06b6d4" />
+                    <stop offset="100%" stop-color="#3b82f6" />
+                  </linearGradient>
+                </defs>
+                <circle cx="50" cy="50" r="48" fill="none" stroke="url(#avatar-grad)" stroke-width="1.5" />
+                <path d="M 50 15 A 15 15 0 1 0 50 45 A 15 15 0 1 0 50 15 Z" fill="url(#avatar-grad)" opacity="0.8" />
+                <path d="M 22 80 C 22 62, 78 62, 78 80 C 78 83, 75 85, 50 85 C 25 85, 22 83, 22 80 Z" fill="url(#avatar-grad)" opacity="0.8" />
+              </svg>
+              <div class="avatar-info-panel">
+                <span class="avatar-info-title">Amrita University</span>
+                <span class="avatar-info-subtitle">B.Tech CSE (AI)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text-content">
+          <p>
+            I am currently in my <strong>7th Semester</strong> at Amrita School of Engineering, Bengaluru. My academic focus bridges advanced algorithmic computing and artificial intelligence. I focus on building scalable software architectures, optimizing models for performance and imbalance, and designing responsive frontends.
+          </p>
+          <p>
+            My engineering philosophy centers on **rigorous empirical analysis**—whether that means benchmarking attention mechanisms in neural networks, optimizing cloud schedulers through multi-objective evolutionary algorithms, or compiling distributed database pipelines on Hadoop.
+          </p>
+          <div class="academic-cards">
+            <div class="academic-card">
+              <i class="fas fa-graduation-cap card-icon"></i>
+              <h3>Education</h3>
+              <p>B.Tech in CSE (Artificial Intelligence)</p>
+              <span>Amrita Vishwa Vidyapeetham</span>
+            </div>
+            <div class="academic-card">
+              <i class="fas fa-code-branch card-icon"></i>
+              <h3>Active Coding</h3>
+              <p>LeetCode Problem Solver</p>
+              <span>Algorithmic Logic & Data Structures</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section container">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-tabs-container">
+        <div class="skills-tabs">
+          <button class="tab-btn active" data-tab="ai-ml">AI & Deep Learning</button>
+          <button class="tab-btn" data-tab="web-dev">Web Engineering</button>
+          <button class="tab-btn" data-tab="cloud-db">Cloud & Databases</button>
+          <button class="tab-btn" data-tab="fundamentals">Core Computer Science</button>
+        </div>
+
+        <!-- Tab contents -->
+        <div class="tab-content active" id="ai-ml">
+          <div class="skills-grid">
+            <div class="skill-item"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></div>
+            <div class="skill-item"><span class="badge-custom">CBAM & Attention Blocks</span></div>
+            <div class="skill-item"><span class="badge-custom">SMOTE Balancing</span></div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="web-dev">
+          <div class="skills-grid">
+            <div class="skill-item"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="ExpressJS"></div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="cloud-db">
+          <div class="skills-grid">
+            <div class="skill-item"><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></div>
+            <div class="skill-item"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"></div>
+            <div class="skill-item"><span class="badge-custom">Hadoop HDFS</span></div>
+            <div class="skill-item"><span class="badge-custom">Apache Spark / PySpark</span></div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="fundamentals">
+          <div class="skills-grid">
+            <div class="skill-item"><span class="badge-custom">Data Structures & Algorithms (DSA)</span></div>
+            <div class="skill-item"><span class="badge-custom">Object-Oriented Programming (OOP)</span></div>
+            <div class="skill-item"><span class="badge-custom">Operating Systems (OS)</span></div>
+            <div class="skill-item"><span class="badge-custom">Computer Networks (CN)</span></div>
+            <div class="skill-item"><span class="badge-custom">Database Management Systems (DBMS)</span></div>
+            <div class="skill-item"><span class="badge-custom">Software Engineering Methodologies</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section container">
+      <div class="section-header">
+        <h2 class="section-title">Core Portfolio Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai-ml">AI & Machine Learning</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack Development</button>
+        <button class="filter-btn" data-filter="cloud-data">Cloud & Distributed Data</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1: Retinal Disease -->
+        <div class="project-card" data-category="ai-ml">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-eye"></i></span>
+            <span class="project-badge">Deep Learning</span>
+          </div>
+          <h3 class="project-title">Retinal Disease Multi-Class Classification</h3>
+          <p class="project-text">
+            9-class diagnosis classifier using ResNet50 augmented with Convolutional Block Attention Module (CBAM) and Mish activation. Achieved 80.97% test accuracy on 5,335 fundus images, mitigating severe imbalance.
+          </p>
+          <div class="project-tech">
+            <span>PyTorch</span>
+            <span>ResNet50</span>
+            <span>CBAM Attention</span>
+            <span>Image Processing</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/Deep-Learning-Project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 2: LegalBERT -->
+        <div class="project-card" data-category="ai-ml">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-balance-scale"></i></span>
+            <span class="project-badge">Machine Learning</span>
+          </div>
+          <h3 class="project-title">Legal Case Outcome Prediction (InLegalBERT)</h3>
+          <p class="project-text">
+            End-to-end legal prediction model using high-dimensional text embeddings from InLegalBERT. Integrates SMOTE, PCA, and feature selection. Evaluated 14 classifiers with a peak QDA test accuracy of 82.84%.
+          </p>
+          <div class="project-tech">
+            <span>InLegalBERT</span>
+            <span>Scikit-Learn</span>
+            <span>SMOTE</span>
+            <span>PCA</span>
+            <span>LightGBM</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/Machine-Learning-Project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Healthcare System -->
+        <div class="project-card" data-category="fullstack">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-hospital-user"></i></span>
+            <span class="project-badge">Full-Stack</span>
+          </div>
+          <h3 class="project-title">AI-Integrated Healthcare & Analysis System</h3>
+          <p class="project-text">
+            Platform offering appointment scheduling, pharmacy checkout, ambulance routing, and blood matchmaking. Incorporates secure JWT/Bcrypt auth, OpenAI analysis, and Agile sprints.
+          </p>
+          <div class="project-tech">
+            <span>Django</span>
+            <span>PostgreSQL</span>
+            <span>OpenAI API</span>
+            <span>Jira / Agile</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/Software_Engineering_Project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 4: Flexi Lane Divider -->
+        <div class="project-card" data-category="ai-ml">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-road"></i></span>
+            <span class="project-badge">Simulation</span>
+          </div>
+          <h3 class="project-title">Flexi Lane: Dynamic Traffic Simulator</h3>
+          <p class="project-text">
+            Density-based movable lane divider simulator written in Pygame. Uses SQLite logging to capture vehicle speed/flow telemetry and Matplotlib to analyze lane divider optimization statistics.
+          </p>
+          <div class="project-tech">
+            <span>Pygame</span>
+            <span>AutoGen Class wrappers</span>
+            <span>SQLite</span>
+            <span>Matplotlib</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/FAI_project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 5: Cloud Scheduler -->
+        <div class="project-card" data-category="cloud-data">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-server"></i></span>
+            <span class="project-badge">Cloud Computing</span>
+          </div>
+          <h3 class="project-title">Energy-Aware Cloud Workload Scheduler</h3>
+          <p class="project-text">
+            Multi-objective workload scheduler distributing jobs across data centers based on wind/solar forecasting. Uses NSGA-II inspired search algorithms, Docker, and Kubernetes simulation.
+          </p>
+          <div class="project-tech">
+            <span>Python (Flask)</span>
+            <span>React</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>NSGA-II</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/Cloud-Computing-Project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 6: Spark Crypto Analytics -->
+        <div class="project-card" data-category="cloud-data">
+          <div class="project-header">
+            <span class="project-icon-box"><i class="fas fa-database"></i></span>
+            <span class="project-badge">Big Data</span>
+          </div>
+          <h3 class="project-title">Cross-Asset PySpark Normalization Framework</h3>
+          <p class="project-text">
+            Hadoop/PySpark daily crypto trade ingestion pipeline. Uses translation joins to normalize quote values to USD, calculates rolling Sharpe scores, and trains Quantile Regression models.
+          </p>
+          <div class="project-tech">
+            <span>Apache Spark</span>
+            <span>Hadoop HDFS</span>
+            <span>PySpark</span>
+            <span>Quantile Regression</span>
+            <span>Streamlit</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/AkhilKuchibhotla001/Big-Data-Analysis-Project" target="_blank" class="btn btn-card"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Credentials & Certifications Section -->
+    <section id="certifications" class="certifications-section container">
+      <div class="section-header">
+        <h2 class="section-title">Credentials & Accomplishments</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <div class="cert-icon-box"><i class="fab fa-aws"></i></div>
+          <div class="cert-info">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>Amazon Web Services</p>
+            <span class="cert-date">Issued: Aug 2025</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon-box"><i class="fas fa-microchip"></i></div>
+          <div class="cert-info">
+            <h3>Image Processing Onramp</h3>
+            <p>MathWorks MATLAB</p>
+            <span class="cert-date">Issued: Feb 2026</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon-box"><i class="fas fa-trophy"></i></div>
+          <div class="cert-info">
+            <h3>National Hackathon Bronze Winner</h3>
+            <p>Next Chapter (3rd Place)</p>
+            <span class="cert-date">Awarded: Jan 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Collaborate</h3>
+          <p>
+            Have a project in mind, an internship opportunity, or simply want to talk about Artificial Intelligence, Machine Learning, or Full-Stack web development? Drop me a message!
+          </p>
+          <ul class="contact-details-list">
+            <li>
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:kuchibhotla.akhil2006@gmail.com">kuchibhotla.akhil2006@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <span>Bangalore, India</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form-container">
+          <form id="portfolio-contact-form" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder=" ">
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required placeholder=" ">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" required placeholder=" "></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <div id="form-status" class="form-status-message"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 Akhil Kuchibhotla. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/AkhilKuchibhotla001" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/akhilkuchibhotla" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:kuchibhotla.akhil2006@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
